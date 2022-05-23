@@ -9,4 +9,18 @@ Steps you need to setup the githubapi
 6. https://www.how2shout.com/how-to/how-to-install-iis-web-server-on-windows-10-step-by-step.html
 7. and when you're done the link you will go to should be 
 8. http://localhost/githubapp/public/index.php/
-9. please let me know if you have any questions or issues setting it up
+9. create a mysql table with the username root and password test 
+10. then create a table called gitData as follows
+    CREATE TABLE gitData (
+    id int NOT NULL AUTO_INCREMENT,
+    git_id varchar(255),
+    full_name varchar(255),
+    url varchar(255),
+    created_date varchar(255),
+    last_push_date varchar(255),
+    project_description varchar(255),
+    number_of_stars varchar(255),
+    PRIMARY KEY (id)
+    );
+12. please let me know if you have any questions or issues setting it up
+13. 
